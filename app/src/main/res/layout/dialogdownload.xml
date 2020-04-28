@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="210dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center"
+        android:paddingStart="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:textAlignment="viewStart"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat"
+        android:text="Thấp"/>
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center"
+        android:paddingStart="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:textAlignment="viewStart"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat"
+        android:text="Trung bình"/>
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center"
+        android:paddingStart="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:textAlignment="viewStart"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat"
+        android:text="Cao"/>
+
+
+</LinearLayout>
